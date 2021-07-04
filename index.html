@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <div class="top-bar">
+                <div class="title">
+                    <img src="Abel_logo.png" alt="logo" id="header-logo">
+                    <h1><span>Nissan</span> cars</h1>
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li class="nav-link">
+                            <a href="#home" class="active">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#features">Features</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#getnow" class="top-button">Get now</a>
+                        </li>                        
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="front-text"   id="home">N<span>I</span>SSAN</h1>
+            <img src="car-background.png" alt="nissan" class="front-image">
+        </header>
+
+        <section id="getnow">
+            <h1>Get <span>20%</span> off when you book this product before: </h1>
+            <div class="countdown">
+                <span></span> days
+                <span></span> hours
+                <span></span> minutes
+                <span></span> seconds
+            </div>
+            <form class="mail" id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" placeholder="Enter your email to book this product" required>
+                <button type="submit" id="submit">submit</button>
+            </form>
+        </section>
+
+        <article id="features">
+            <h1>Features</h1>
+            <iframe width="853" height="480" id="video" src="https://www.youtube.com/embed/pN2a4W8uHrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="features-boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </article>
+
+        <article id="pricing">
+            <div class="price">
+                <img src="nissan2.png" alt="nissan car">
+                <h3><span>$120,000</span> $100,000 <button>BOOK NOW</button></h3>
+            </div>
+        </article>
+
+    </div>
+
+        <footer>
+            <p>Landing page by ABEL copyright &copy; 2021</p>
+        </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
